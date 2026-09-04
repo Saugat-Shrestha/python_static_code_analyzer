@@ -1,0 +1,57 @@
+$ python -m pyscan pyscan/*.py
+
+pyscan/__init__.py
+  no issues found
+  34 lines (30 code, 0 comment, 4 blank), 0 functions, 0 classes, average complexity 0.00, highest complexity 0
+
+pyscan/__main__.py
+  no issues found
+  8 lines (5 code, 0 comment, 3 blank), 0 functions, 0 classes, average complexity 0.00, highest complexity 0
+
+pyscan/analyzer.py
+  no issues found
+  90 lines (71 code, 1 comment, 18 blank), 4 functions, 1 classes, average complexity 3.75, highest complexity 5
+
+pyscan/astutils.py
+  no issues found
+  87 lines (67 code, 1 comment, 19 blank), 7 functions, 0 classes, average complexity 3.43, highest complexity 7
+
+pyscan/cli.py
+  no issues found
+  177 lines (139 code, 1 comment, 37 blank), 12 functions, 0 classes, average complexity 2.25, highest complexity 7
+
+pyscan/complexity.py
+  no issues found
+  68 lines (52 code, 1 comment, 15 blank), 4 functions, 1 classes, average complexity 3.00, highest complexity 5
+
+pyscan/config.py
+  no issues found
+  65 lines (50 code, 2 comment, 13 blank), 2 functions, 1 classes, average complexity 4.50, highest complexity 8
+
+pyscan/duplication.py
+  no issues found
+  224 lines (178 code, 7 comment, 39 blank), 11 functions, 1 classes, average complexity 4.27, highest complexity 7
+
+pyscan/errors.py
+  no issues found
+  29 lines (17 code, 0 comment, 12 blank), 1 functions, 5 classes, average complexity 1.00, highest complexity 1
+
+pyscan/metrics.py
+  no issues found
+  45 lines (37 code, 0 comment, 8 blank), 2 functions, 0 classes, average complexity 5.50, highest complexity 7
+
+pyscan/models.py
+  no issues found
+  64 lines (48 code, 0 comment, 16 blank), 3 functions, 3 classes, average complexity 2.00, highest complexity 3
+
+pyscan/naming.py
+  no issues found
+  138 lines (110 code, 5 comment, 23 blank), 7 functions, 0 classes, average complexity 3.29, highest complexity 6
+
+pyscan/unused.py
+  no issues found
+  146 lines (120 code, 2 comment, 24 blank), 7 functions, 0 classes, average complexity 6.14, highest complexity 10
+
+no issues found in 13 file(s)
+
+exit code: 0

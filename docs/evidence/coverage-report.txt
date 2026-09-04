@@ -1,0 +1,27 @@
+$ coverage run --branch --source=pyscan -m unittest discover -s tests -t .
+
+..............................................................................................................................................................................................
+----------------------------------------------------------------------
+Ran 190 tests in 1.175s
+
+OK
+
+$ coverage report -m
+
+Name                    Stmts   Miss Branch BrPart  Cover   Missing
+-------------------------------------------------------------------
+pyscan/__init__.py          6      0      0      0   100%
+pyscan/__main__.py          4      4      2      0     0%   3-8
+pyscan/analyzer.py         49      0      6      0   100%
+pyscan/astutils.py         47      0     26      0   100%
+pyscan/cli.py              80      0     16      0   100%
+pyscan/complexity.py       30      0     10      0   100%
+pyscan/config.py           27      0     10      0   100%
+pyscan/duplication.py     108      0     42      0   100%
+pyscan/errors.py            8      0      0      0   100%
+pyscan/metrics.py          19      0      6      0   100%
+pyscan/models.py           35      0      0      0   100%
+pyscan/naming.py           64      0     28      0   100%
+pyscan/unused.py           72      0     48      0   100%
+-------------------------------------------------------------------
+TOTAL                     549      4    194      0    99%

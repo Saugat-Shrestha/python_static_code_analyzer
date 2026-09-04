@@ -1,0 +1,13 @@
+$ python -m pyscan examples/example.py
+
+examples/example.py
+  4:UNU002  import 'os' is never used
+  7:NAM001  function 'calculateTotal' should be named in snake_case
+  7:NAM004  argument 'userName' should be named in snake_case
+  8:NAM002  variable 'unusedValue' should be named in snake_case
+  8:UNU001  variable 'unusedValue' is assigned in 'calculateTotal' but never used
+  12 lines (7 code, 2 comment, 3 blank), 1 functions, 0 classes, average complexity 2.00, highest complexity 2
+
+5 issue(s) found in 1 file(s)
+
+exit code: 1

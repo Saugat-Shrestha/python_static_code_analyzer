@@ -1,0 +1,4 @@
+# PyScan itself uses only the Python standard library, so there is nothing to
+# install in order to run it. The packages below are for development only.
+
+coverage==7.10.7

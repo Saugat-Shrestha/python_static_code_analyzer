@@ -1,0 +1,8 @@
+Performance after the rewrite described in the development log.
+Measured on Python 3.9.6, macOS.
+
+ 100 functions (  399 lines):   0.030 s   peak RSS    12.5 MB
+ 250 functions (  999 lines):   0.073 s   peak RSS    15.0 MB
+ 500 functions ( 1999 lines):   0.146 s   peak RSS    17.6 MB
+1000 functions ( 3999 lines):   0.295 s   peak RSS    24.0 MB
+2000 functions ( 7999 lines):   0.598 s   peak RSS    37.5 MB
